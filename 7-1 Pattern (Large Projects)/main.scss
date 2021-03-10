@@ -1,0 +1,41 @@
+// Main sass file which imports all others
+
+// Importing all abstracts sass files
+@use "abstracts/variables";
+@use "abstracts/functions";
+@use "abstracts/mixins";
+
+//Importing all base sass files
+@use "base/typography";
+@use "base/reset";
+
+// Importing all components(modules) sass files
+
+@use "components/buttons";
+@use "components/carousel";
+@use "components/slider";
+
+// Importing all layout sass files
+
+@use "layout/header";
+@use "layout/navigation";
+@use "layout/sidebar";
+@use "layout/grid";
+@use "layout/footer";
+@use "layout/forms";
+
+// Importing all pages sass files
+
+@use "pages/home";
+@use "pages/about";
+@use "pages/contact";
+
+// Importing all themes sass files
+
+@use "themes/theme";
+@use "themes/admin";
+
+//Importing all vendor sass files
+
+@use "vendor/bootstrap";
+@use "vendor/jquery-ui";
